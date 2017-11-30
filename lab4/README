@@ -1,0 +1,15 @@
+# CS3241 Lab 4
+
+Zhang Yijiang (A0135817B)
+
+## Modified methods
+
+- A passive mouse callback was added to save the mouse positive for object rendering
+- The ptList was changed into a `vector<Point>`` because that is easier to work with than an array
+- Pressing 'Z' will undo the last control point drawn, making it easier to draw things
+
+## Cool features
+
+- Use C0 continuity (do not press 'C')
+- The curve drawn wraps around the screen, and mousing over parts of the curve will reveal
+  a famous Shakespearean quote
